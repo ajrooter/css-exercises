@@ -6,12 +6,26 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+  
 }
 
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.child1
+{
+  display:flex
+}
+.child2
+{
+  display:flex;
+  gap: 10px;
 }
 
 .profile-image {
@@ -35,14 +49,20 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  
 }
+
+
 
 a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  
 }
 
 ul {
+  display: flex;
   list-style-type: none;
+  gap:10px;
 }
